@@ -1,5 +1,5 @@
 # website-security-checker
-Check for website security standards and base practices using the Mozilla Observatory.
+Check for website security standards and best practices using the Mozilla Observatory.
 
 ## Functionality
 - You can scan a given website using the mozilla observatory website: https://observatory.mozilla.org/
