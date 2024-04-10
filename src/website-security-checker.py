@@ -88,8 +88,7 @@ def send_email_for_failed_websites(website_list: List[str]):
         if len(website_list) < 1:
             return None
         global sg
-        # to_email = ["swarnim335@gmail.com", "tech.support@iitms.co.in"]
-        to_email = ["swarnim335@gmail.com"]
+        to_email = ["swarnim335@gmail.com", "tech.support@iitms.co.in"]
         from_email = "noreply@mastersofterp.co.in"
         curdate = datetime.now().strftime("%Y-%m-%d")
         subject = f"Website Vulnerabilities Summary - {curdate}"
@@ -127,9 +126,8 @@ def send_email_for_failed_websites(website_list: List[str]):
 def send_email(to_email: List[str], url: str, website_report: str):
     try:
         global sg
-        # e = "swarnim335@gmail.com"
-        # to_email.append(e)
-        to_email = ["swarnim335@gmail.com"]
+        e = "swarnim335@gmail.com"
+        to_email.append(e)
         from_email = "noreply@mastersofterp.co.in"
         curtime = datetime.now()
         timestamp = curtime.strftime("%Y-%m-%d %H:%M:%S")
